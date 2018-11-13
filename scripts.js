@@ -146,10 +146,6 @@ const program = (() => {
     e.preventDefault();
     const input = e.target.querySelector('input');
 
-    setTimeout(() => {
-      const gif = document.createElement('gif');
-      gif.src = 'loading.gif';
-    });
     fetchData(input.value);
   }
 
