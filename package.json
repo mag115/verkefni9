@@ -1,0 +1,18 @@
+{
+  "name": "verkefni9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "eslint": "eslint *.js **/*.js",
+    "test": "npm run eslint"
+  },
+  "author": "",
+  "license": "ISC"
+}
